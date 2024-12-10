@@ -48,7 +48,7 @@
     }
 
     .logo {
-      width: 150px;
+      width: 300px; /* Increased logo size */
     }
 
     /* Background Text */
@@ -66,7 +66,10 @@
 
     /* Scroll Indicator */
     .scroll-indicator {
-      margin-top: 30px;
+      position: absolute;
+      bottom: 20px; /* Positioned at the bottom */
+      left: 50%;
+      transform: translateX(-50%);
       animation: bounce 2s infinite;
       font-size: 2rem;
       color: white;
@@ -141,4 +144,3 @@
   </script>
 </body>
 </html>
-
